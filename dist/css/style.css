@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body .back img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .all {
+  background-image: url("https://www.99images.com/photos/wallpapers/others/rilakkuma-iphoneandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-2qzrc.jpg?v=1584145749");
+  background-size: cover;
+}
+
+body .all .title {
+  border-radius: 50% 50% 0 0;
+  background: #ffbb86;
+  background: -webkit-gradient(linear, left top, right top, color-stop(32%, #ffbb86), to(#ff2858));
+  background: linear-gradient(90deg, #ffbb86 32%, #ff2858 100%);
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5rem;
+  color: cornsilk;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  width: 70%;
+}
+
+body .all .main {
+  border-radius: 0 0 5% 5%;
+  background: #dd86ff;
+  background: -webkit-gradient(linear, left top, right top, color-stop(32%, #dd86ff), to(#ff65ab));
+  background: linear-gradient(90deg, #dd86ff 32%, #ff65ab 100%);
+  margin: 0 auto;
+  height: 100%;
+  width: 70%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */

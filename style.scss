@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    .back{
+
+        img{
+            width: 100%;
+        height: 100%;
+        object-fit:cover;
+        }
+
+    }
+
+    .all{
+        background-image: url("https://www.99images.com/photos/wallpapers/others/rilakkuma-iphoneandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-2qzrc.jpg?v=1584145749");
+        background-size: cover;
+    
+        .title{
+            border-radius: 50% 50% 0 0 ;
+            background: rgb(255,187,134);
+            background: linear-gradient(90deg, rgba(255,187,134,1) 32%, rgba(255,40,88,1) 100%);
+            margin: 0 auto;
+            text-align: center;
+            font-size: 2.5rem;
+            color: cornsilk;
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            width: 70%;
+        }
+        .main{
+            border-radius: 0 0 5% 5%;
+            background: rgb(221,134,255);
+            background: linear-gradient(90deg, rgba(221,134,255,1) 32%, rgba(255,101,171,1) 100%);
+            margin: 0 auto;
+            height:100%;
+            width: 70%;
+            text-align: center;
+            font-size: 1.2rem;
+            
+        }
+    }
+    
+}
+
